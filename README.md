@@ -26,7 +26,7 @@ Follow these steps to set up the MedTexClinic API project locally:
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/AyxanMammadlidev/MedTexClinic.git
 
 
@@ -62,12 +62,14 @@ The MedTexClinic API exposes the following endpoints:
 
 POST /api/patients – Create a new patient.
 GET /api/patients – Retrieve all patients.
+POST /api/doctors – Create a new doctor.
+GET /api/doctors – Retrieve all doctors.
 GET /api/patients/{id} – Retrieve a specific patient by ID.
+GET /api/doctors/{id} – Retrieve a specific doctor by ID.
 POST /api/appointments – Book an appointment for a patient.
 GET /api/appointments – View all appointments.
 GET /api/appointments/{id} – View a specific appointment by ID.
-POST /api/bills – Generate an invoice for services provided.
-GET /api/bills – Retrieve all bills.
+
 🧪 Testing the API
 You can test the API using Postman or a similar API testing tool. Send HTTP requests to the endpoints and verify the responses.
 
