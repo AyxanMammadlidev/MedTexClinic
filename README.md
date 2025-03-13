@@ -32,21 +32,21 @@ git clone https://github.com/AyxanMammadlidev/MedTexClinic.git
 2. Restore the project dependencies
 Navigate to the project folder and restore the dependencies:
 
-cd MedTexClinic
-dotnet restore
-3. Database setup
-Create a new SQL database for the project.
-Update the appsettings.json file with your database connection string.
-4. Apply migrations
+cd MedTexClinic<br>
+dotnet restore<br>
+3. Database setup<br>
+Create a new SQL database for the project.<br>
+Update the appsettings.json file with your database connection string.<br>
+4. Apply migrations<br>
 If the project uses Entity Framework Core for database management, apply the migrations to set up the database schema.
 
 
-dotnet ef database update
-5. Run the application
+dotnet ef database update<br>
+5. Run the application<br>
 To start the API, use the following command:
 
 
-dotnet run
+dotnet run<br>
 The API should now be available at http://localhost:5000 or any other port specified in the configuration.
 
 📝 API Endpoints
@@ -68,11 +68,11 @@ You can test the API using Postman or a similar API testing tool. Send HTTP requ
 🤝 Contributing
 We welcome contributions to MedTexClinic API! If you'd like to contribute:
 
-Fork the repository.
-Create a new branch.
-Make your changes and test them.
-Submit a pull request with a description of the changes.
-Please make sure to follow the coding standards and add unit tests for new features.
+Fork the repository.<br>
+Create a new branch.<br>
+Make your changes and test them.<br>
+Submit a pull request with a description of the changes.<br>
+Please make sure to follow the coding standards and add unit tests for new features.<br>
 
 📄 License
 This project is licensed under the Apache License 2.0. See the LICENSE file for details.
