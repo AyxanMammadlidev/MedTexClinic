@@ -52,15 +52,15 @@ The API should now be available at http://localhost:5000 or any other port speci
 📝 API Endpoints
 The MedTexClinic API exposes the following endpoints:
 
-POST /api/patients – Create a new patient.
-GET /api/patients – Retrieve all patients.
-POST /api/doctors – Create a new doctor.
-GET /api/doctors – Retrieve all doctors.
-GET /api/patients/{id} – Retrieve a specific patient by ID.
-GET /api/doctors/{id} – Retrieve a specific doctor by ID.
-POST /api/appointments – Book an appointment for a patient.
-GET /api/appointments – View all appointments.
-GET /api/appointments/{id} – View a specific appointment by ID.
+POST /api/patients – Create a new patient.<br>
+GET /api/patients – Retrieve all patients.<br>
+POST /api/doctors – Create a new doctor.<br>
+GET /api/doctors – Retrieve all doctors.<br>
+GET /api/patients/{id} – Retrieve a specific patient by ID.<br>
+GET /api/doctors/{id} – Retrieve a specific doctor by ID.<br>
+POST /api/appointments – Book an appointment for a patient.<br>
+GET /api/appointments – View all appointments.<br>
+GET /api/appointments/{id} – View a specific appointment by ID.<br>
 
 🧪 Testing the API
 You can test the API using Postman or a similar API testing tool. Send HTTP requests to the endpoints and verify the responses.
