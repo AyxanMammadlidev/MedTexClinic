@@ -80,4 +80,4 @@ This project is licensed under the Apache License 2.0. See the LICENSE file for 
 📬 Contact
 For any questions or inquiries, feel free to contact the project maintainer:
 
-mammadliayxan0@gmail.com
+memmedliayxan0@gmail.com
