@@ -6,7 +6,6 @@
 
 - **Patient Management:** Securely store, update, and retrieve patient information.
 - **Appointment Scheduling:** Allow patients to book, reschedule, and cancel appointments with doctors.
-- **Billing System:** Automatically generate and manage invoices for services rendered.
 - **Doctor's Dashboard:** Provides doctors with the ability to manage their appointments and patient records.
 - **Admin Panel Access:** Administrative users can oversee all operations, including staff management and billing records.
 - **Notification System:** Automatically notify patients and doctors about upcoming appointments and changes.
@@ -33,9 +32,6 @@ git clone https://github.com/AyxanMammadlidev/MedTexClinic.git
 2. Restore the project dependencies
 Navigate to the project folder and restore the dependencies:
 
-bash
-Kopyala
-Düzenle
 cd MedTexClinic
 dotnet restore
 3. Database setup
@@ -44,16 +40,12 @@ Update the appsettings.json file with your database connection string.
 4. Apply migrations
 If the project uses Entity Framework Core for database management, apply the migrations to set up the database schema.
 
-bash
-Kopyala
-Düzenle
+
 dotnet ef database update
 5. Run the application
 To start the API, use the following command:
 
-bash
-Kopyala
-Düzenle
+
 dotnet run
 The API should now be available at http://localhost:5000 or any other port specified in the configuration.
 
